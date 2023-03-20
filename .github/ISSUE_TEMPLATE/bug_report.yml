@@ -1,62 +1,72 @@
-name: 🐞 Bug report
-description: Report an issue
-labels: [pending triage]
+name: "\U0001F41E Bug report"
+description: Create a report to help us improve
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: bug-description
+        You can just send a PR for a typo or grammar issue.
+  - type: checkboxes
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is. If you intend to submit a PR for this issue, tell us in the description. Thanks!
-      placeholder: Bug description
-    validations:
-      required: true
+      label: "Before you start, please make sure to:"
+      options:
+      - label: Read the doc
+        required: true
+      - label: Have tried the latest version
+        required: true
+      - label: Search to see if your issue already exists
+        required: true
+      - label: Look for / ask questions on [Stack Overflow](https://stackoverflow.com/questions/ask)
+        required: false
+      - label: Reproduce the bug in incognito/private mode to avoid interference from browser extensions
+        required: false
   - type: input
-    id: reproduction
     attributes:
-      label: Reproduction
-      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. [**Why & How?**](https://antfu.me/posts/why-reproductions-are-required)
-      placeholder: Reproduction
+      label: Link to minimal reproduction
+      description: |
+        Try reproducing it in [StackBlitz](https://vite.new) or [The SFC Playground](https://sfc.vuejs.org) for Vue 3 projects.
+        If neither of these are suitable, you can always provide a GitHub repository.
+        The reproduction should be **minimal** - i.e. it should contain only the bare minimum amount of code needed to show the bug.
+        Please do not just fill in a random link. The issue will be closed if no valid reproduction is provided. [Why?](https://antfu.me/posts/why-reproductions-are-required)
     validations:
       required: true
   - type: textarea
-    id: system-info
+    attributes:
+      label: Steps to reproduce
+      description: |
+        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is expected?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is actually happening?
+    validations:
+      required: true
+  - type: textarea
     attributes:
       label: System Info
-      description: Output of `npx envinfo --system --binaries --browsers`
-      render: Shell
-      placeholder: System, Binaries, Browsers
+      description: Output of `npx envinfo --system --binaries --browsers --npmPackages`
+      render: shell
+      placeholder: System, JavaScript Runtime, Browser, NPM Packages
     validations:
       required: true
   - type: dropdown
-    id: package-manager
     attributes:
-      label: Used Package Manager
-      description: Select the used package manager
+      label: Package Manager
       options:
-        - npm
-        - yarn
         - pnpm
-        - bun
-        - n/a
+        - cnpm
+        - yarn
+        - npm
+        - other
     validations:
-      required: true
-  - type: checkboxes
-    id: checkboxes
+      required: false
+  - type: textarea
     attributes:
-      label: Validations
-      description: Before submitting the issue, please make sure you do the following
-      options:
-        - label: Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)
-          required: true
-        - label: Read the [Contributing Guide](https://github.com/antfu/contribute).
-          required: true
-        - label: Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.
-          required: true
-        - label: Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.
-          required: true
-        - label: The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.
-          required: true
+      label: Any additional comments?
+      description: e.g. some background/context of how you ran into this bug.
