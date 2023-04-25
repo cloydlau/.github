@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        You can just send a PR for a typo or grammar issue.
+        Please keep in mind that PRs welcome 😊
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
@@ -60,9 +60,10 @@ body:
       label: Package Manager
       options:
         - pnpm
-        - cnpm
         - yarn
+        - cnpm
         - npm
+        - bun
         - other
     validations:
       required: false
