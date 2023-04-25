@@ -52,7 +52,7 @@ body:
       label: System Info
       description: Output of `npx envinfo --system --binaries --browsers --npmPackages`
       render: shell
-      placeholder: System, JavaScript Runtime, Browser, NPM Packages
+      placeholder: System, JS/TS Runtime, Browser, NPM Packages
     validations:
       required: true
   - type: dropdown
