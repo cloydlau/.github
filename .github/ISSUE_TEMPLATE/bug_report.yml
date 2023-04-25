@@ -60,10 +60,10 @@ body:
       label: Package Manager
       options:
         - pnpm
+        - bun
         - yarn
         - cnpm
         - npm
-        - bun
         - other
     validations:
       required: false
