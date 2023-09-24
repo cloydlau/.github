@@ -4,8 +4,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this necessary bug report!
         Please keep in mind that PRs welcome 😊
+        Could you hit the Star if this project helped or your problem was resolved afterwards? tks! 🙏
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
