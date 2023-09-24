@@ -17,7 +17,7 @@ body:
         required: true
       - label: Search to see if your issue already exists
         required: true
-      - label: Can provide valid reproduction
+      - label: Provide valid reproduction
         required: true
       - label: Look for / ask questions on [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
