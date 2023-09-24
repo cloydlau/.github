@@ -17,7 +17,7 @@ body:
         required: true
       - label: Search to see if your issue already exists
         required: true
-      - label: Provide valid reproduction
+      - label: Can provide valid reproduction
         required: true
       - label: Look for / ask questions on [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
@@ -25,11 +25,10 @@ body:
     attributes:
       label: Link to minimal reproduction
       description: |
-        [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
-        Try reproducing it in [StackBlitz](https://vite.new) or [The SFC Playground for Vue 3 projects](https://play.vuejs.org).
-        If neither of these are suitable, you can always provide a GitHub repository.
+        Try reproducing it in [StackBlitz](https://vite.new) or [The SFC Playground for Vue 3 projects](https://play.vuejs.org). If neither of these are suitable, you can always provide a GitHub repository.
         The reproduction should be **minimal** - i.e. it should contain only the bare minimum amount of code needed to show the bug.
-        Enable incognito/private mode to avoid interference from browser extensions.
+        Enable **incognito/private mode** to avoid interference from browser extensions.
+        [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
     validations:
       required: true
   - type: textarea
