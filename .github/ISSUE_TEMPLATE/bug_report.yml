@@ -32,9 +32,10 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Please do not just fill in a random link. The issue will be closed if no valid reproduction is provided. [Why?](https://antfu.me/posts/why-reproductions-are-required)
+      label: [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
       options:
-      - required: true
+      - label: Reproduction is valid and minimal
+        required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
