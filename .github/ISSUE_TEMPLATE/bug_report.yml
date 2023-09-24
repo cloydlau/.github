@@ -28,9 +28,13 @@ body:
         Try reproducing it in [StackBlitz](https://vite.new) or [The SFC Playground for Vue 3 projects](https://play.vuejs.org).
         If neither of these are suitable, you can always provide a GitHub repository.
         The reproduction should be **minimal** - i.e. it should contain only the bare minimum amount of code needed to show the bug.
-        Please do not just fill in a random link. The issue will be closed if no valid reproduction is provided. [Why?](https://antfu.me/posts/why-reproductions-are-required)
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      options:
+      - label: Please do not just fill in a random link. The issue will be closed if no valid reproduction is provided. [Why?](https://antfu.me/posts/why-reproductions-are-required)
+        required: true
   - type: textarea
     attributes:
       label: Steps to reproduce
