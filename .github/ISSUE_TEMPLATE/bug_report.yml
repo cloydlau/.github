@@ -32,7 +32,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
+      label: "[Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)"
       options:
       - label: Reproduction is valid and minimal
         required: true
