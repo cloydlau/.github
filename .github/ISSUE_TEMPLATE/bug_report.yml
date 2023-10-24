@@ -23,7 +23,7 @@ body:
     attributes:
       label: Link to minimal reproduction
       description: |
-        Try reproducing it in [StackBlitz](https://vite.new) or [The SFC Playground for Vue 3 projects](https://play.vuejs.org). If neither of these are suitable, you can always provide a GitHub repository.
+        Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository.
         The reproduction should be **minimal** - i.e. it should contain only the bare minimum amount of code needed to show the bug.
         Enable **incognito/private mode** to avoid interference from browser extensions.
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
