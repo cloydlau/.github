@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this necessary bug report!
-        Please keep in mind that PRs welcome 😊
+        Sending PRs with failing tests or at least a well-crafted minimal reproduction, is a huge step towards maintainers or other contributors landing a fix 😊.
         Could you hit the Star if this project helped or your problem was resolved afterwards? tks! 🙏
   - type: checkboxes
     attributes:
