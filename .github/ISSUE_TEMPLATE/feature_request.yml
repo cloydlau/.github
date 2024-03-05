@@ -6,19 +6,19 @@ body:
     attributes:
       value: |
         Thanks for your interest and taking the time to fill out this feature proposal!
-        Please keep in mind that PRs welcome 😊
+        Please keep in mind that PRs welcome. 😊
         Could you hit the Star if this project helped or your proposal was resolved afterwards? tks 🙏
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
       options:
-      - label: Read the doc
+      - label: Read the document
         required: true
       - label: Have tried the latest version
         required: true
-      - label: Search to see if your issue already exists
+      - label: Search to see if your proposal already exists
         required: true
-      - label: Look for / ask questions on [Stack Overflow](https://stackoverflow.com/questions/ask)
+      - label: Look for / ask questions through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
   - type: textarea
     id: problem-description
