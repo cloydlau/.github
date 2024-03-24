@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for your interest and taking the time to fill out this feature proposal!
         Please keep in mind that PRs welcome. 😊
-        Could you hit the Star if this project helped or your proposal was resolved afterwards? tks 🙏
+        Could you please hit the Star if this project helped or your proposal was resolved afterwards? tks 🙏
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
