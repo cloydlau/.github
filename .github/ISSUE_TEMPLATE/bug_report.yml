@@ -25,6 +25,7 @@ body:
       description: |
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository.
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
+        The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction.
       placeholder: Valid link
     validations:
       required: true
@@ -35,7 +36,6 @@ body:
         > - Invalid, incomplete or excessive reproduction could be rejected
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
-        > - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
   - type: textarea
     attributes:
       label: Steps to reproduce
