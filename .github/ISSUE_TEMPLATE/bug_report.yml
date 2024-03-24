@@ -32,7 +32,7 @@ body:
     attributes:
       value: |
         > [!IMPORTANT]
-        > - Invalid reproduction without a convincing reason will be rejected
+        > - Invalid, incomplete or excessive reproduction could be rejected
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
   - type: textarea
