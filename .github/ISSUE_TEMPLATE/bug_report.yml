@@ -27,16 +27,13 @@ body:
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
     validations:
       required: true
-  - type: checkboxes
+  - type: markdown
     attributes:
-      label: "_"
-      options:
-      - label: Invalid reproduction without convincing reason will be rejected
-        required: true
-      - label: Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
-        required: true
-      - label: Enable incognito/private mode to avoid interference from browser extensions and caches
-        required: false
+      value: |
+        > [!IMPORTANT]
+        > - Invalid reproduction without convincing reason will be rejected
+        > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
+        > - Enable incognito/private mode to avoid interference from browser extensions and caches
   - type: textarea
     attributes:
       label: Steps to reproduce
