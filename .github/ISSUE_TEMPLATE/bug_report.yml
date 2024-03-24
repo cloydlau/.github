@@ -17,8 +17,6 @@ body:
         required: true
       - label: Search to see if your issue already exists
         required: true
-      - label: Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
-        required: true
       - label: Look for / ask questions through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
   - type: input
@@ -26,11 +24,18 @@ body:
       label: Link to minimal (but complete) reproduction
       description: |
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository.
-        Enable **incognito/private mode** to avoid interference from browser extensions and caches.
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
-      placeholder: Valid link
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      options:
+      - label: Invalid reproduction without convincing reason will be rejected
+        required: true
+      - label: Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
+        required: true
+      - label: Enable incognito/private mode to avoid interference from browser extensions and caches
+        required: false
   - type: textarea
     attributes:
       label: Steps to reproduce
