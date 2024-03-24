@@ -29,6 +29,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
+      label: " "
       options:
       - label: Invalid reproduction without convincing reason will be rejected
         required: true
