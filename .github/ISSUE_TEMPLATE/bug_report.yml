@@ -38,19 +38,9 @@ body:
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
   - type: textarea
     attributes:
-      label: Steps to reproduce
+      label: Describe the bug and steps to reproduce
       description: |
         What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: What is expected?
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: What is actually happening?
     validations:
       required: true
   - type: textarea
@@ -63,17 +53,13 @@ body:
       required: false
   - type: dropdown
     attributes:
-      label: Package Manager
+      label: Used Package Manager
       options:
         - pnpm
         - bun
         - npm
         - yarn
         - cnpm
-        - other
+        - N/A
     validations:
       required: false
-  - type: textarea
-    attributes:
-      label: Any additional comments?
-      description: e.g. some background/context of how you ran into this bug.
