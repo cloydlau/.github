@@ -60,6 +60,6 @@ body:
         - npm
         - yarn
         - cnpm
-        - N/A
+        - other
     validations:
       required: false
