@@ -17,7 +17,7 @@ body:
         required: true
       - label: Search to see if your issue already exists
         required: true
-      - label: Look for / ask questions through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask)
+      - label: Look for Q&A through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
   - type: input
     attributes:
