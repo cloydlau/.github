@@ -8,9 +8,9 @@ body:
         Thanks for your interest and taking the time to fill out this feature proposal!
         Please keep in mind that PRs welcome. 😊
         Could you please hit the Star if this project helped or your proposal was resolved afterwards? tks 🙏
-        > [!IMPORTANT]
+        > [!Caution]
         > Please ensure not to use the feature proposal for unrelated purposes like bug report,
-        > otherwise the proposal will be closed without further notice.
+        > otherwise the proposal can be closed without further notice.
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
