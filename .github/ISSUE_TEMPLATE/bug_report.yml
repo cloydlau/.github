@@ -6,7 +6,7 @@ body:
       value: |
         Thanks for taking the time to fill out this necessary bug report!
         Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix. 😊
-        Could you please hit the Star if this project helped or your problem was resolved afterwards? tks 🙏
+        Could you please hit the Star if you find this project helpful or your problem was resolved afterwards? thanks 🙏
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
