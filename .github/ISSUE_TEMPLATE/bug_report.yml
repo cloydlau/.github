@@ -40,7 +40,7 @@ body:
     attributes:
       label: "Validation"
       options:
-      - label: I understand that invalid, incomplete or superfluous reproduction could be rejected
+      - label: I understand that invalid, incomplete or superfluous reproduction can be rejected
         required: true
   - type: textarea
     attributes:
