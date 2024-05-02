@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this necessary bug report!
-        Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix. 😊
+        Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix 😊
         Could you please hit the Star if you find this project helpful or your problem was resolved afterwards? thanks 🙏
   - type: checkboxes
     attributes:
@@ -21,11 +21,11 @@ body:
         required: false
   - type: input
     attributes:
-      label: Link to minimal (but complete) reproduction
+      label: Link to minimal reproduction
       description: |
-        Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository.
+        Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
-        The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction.
+        The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
       placeholder: Valid link
     validations:
       required: true
@@ -33,14 +33,14 @@ body:
     attributes:
       value: |
         > [!Caution]
-        > - Invalid, incomplete or superfluous reproduction can be rejected, avoid code screenshots.
+        > - The reproduction should be minimal (and complete) - i.e. it should contain only the bare minimum amount of code needed to show the bug
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
   - type: textarea
     attributes:
       label: Describe the bug and steps to reproduce
       description: |
-        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code.
+        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code. Avoid code screenshots.
     validations:
       required: true
   - type: textarea
@@ -63,3 +63,8 @@ body:
         - other
     validations:
       required: false
+  - type: checkboxes
+    attributes:
+      options:
+      - label: I understand that invalid, incomplete or superfluous reproduction could be rejected
+        required: true
