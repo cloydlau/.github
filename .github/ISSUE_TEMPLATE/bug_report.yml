@@ -65,7 +65,7 @@ body:
       required: false
   - type: checkboxes
     attributes:
-      label: " "
+      label: "_"
       options:
       - label: I understand that invalid, incomplete or superfluous reproduction could be rejected
         required: true
