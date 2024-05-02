@@ -9,7 +9,7 @@ body:
         Please keep in mind that PRs welcome (Consensus should be reached through discussion first if the changes are significant). 😊
         Could you please hit the Star if you find this project helpful or your proposal was resolved afterwards? thanks 🙏
         > [!Caution]
-        > Please ensure not to use this for unrelated purposes like bug report, otherwise the proposal can be closed without further notice.
+        > Please ensure not to use this for unrelated purposes like bug report, otherwise it can be closed without further notice.
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
