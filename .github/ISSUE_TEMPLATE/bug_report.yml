@@ -36,6 +36,12 @@ body:
         > - The reproduction should be minimal (and complete) - i.e. it should contain only the bare minimum amount of code needed to show the bug
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
+  - type: checkboxes
+    attributes:
+      label: "Validation"
+      options:
+      - label: I understand that invalid, incomplete or superfluous reproduction could be rejected
+        required: true
   - type: textarea
     attributes:
       label: Describe the bug and steps to reproduce
@@ -63,9 +69,3 @@ body:
         - other
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: "Validation"
-      options:
-      - label: I understand that invalid, incomplete or superfluous reproduction could be rejected
-        required: true
