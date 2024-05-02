@@ -33,7 +33,7 @@ body:
     attributes:
       value: |
         > [!Caution]
-        > - The reproduction should be minimal (and complete) - i.e. it should contain only the bare minimum amount of code needed to show the bug
+        > - The reproduction should contain only the bare minimum (but complete) amount of code needed to show the bug
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
   - type: checkboxes
