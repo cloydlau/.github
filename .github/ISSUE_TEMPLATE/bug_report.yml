@@ -25,14 +25,11 @@ body:
       description: |
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository
         [Why reproductions are required?](https://antfu.me/posts/why-reproductions-are-required)
+        > [!Tip]
+        > The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
       placeholder: Valid link
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        > [!Tip]
-        > The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
   - type: markdown
     attributes:
       value: |
