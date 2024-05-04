@@ -41,7 +41,7 @@ body:
     attributes:
       label: "Validation"
       options:
-      - label: I understand that invalid, incomplete or superfluous reproduction can be rejected
+      - label: I understand that invalid, incomplete or superfluous reproduction can lead to this issue being closed
         required: true
   - type: textarea
     attributes:
