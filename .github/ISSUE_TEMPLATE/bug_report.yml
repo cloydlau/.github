@@ -5,7 +5,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this necessary bug report!
-        Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix 😊
         Could you please hit the Star if you find this project helpful or your problem was resolved afterwards? thanks 🙏
   - type: checkboxes
     attributes:
@@ -26,7 +25,8 @@ body:
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository
         [Why reproductions are required, and how to create one?](https://antfu.me/posts/why-reproductions-are-required)
         > [!Tip]
-        > The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
+        > - Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix
+        > - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
       placeholder: Valid link
     validations:
       required: true
