@@ -6,8 +6,13 @@ body:
     attributes:
       value: |
         Thanks for your interest and taking the time to fill out this feature proposal!
-        Please keep in mind that PRs welcome (Consensus should be reached through discussion first if the changes are significant) 😊
         Could you please hit the Star if you find this project helpful or your proposal was resolved afterwards? thanks 🙏
+        > [!Tip]
+        > Please keep in mind that PRs welcome
+        > (Consensus should be reached through discussion first if the changes are significant)
+  - type: markdown
+    attributes:
+      value: |
         > [!Caution]
         > Please ensure not to use this for unrelated purposes like bug report, otherwise it can be closed without further notice
   - type: checkboxes
