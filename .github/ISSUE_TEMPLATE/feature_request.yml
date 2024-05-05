@@ -10,11 +10,6 @@ body:
         > [!Tip]
         > Please keep in mind that PRs welcome
         > (Consensus should be reached through discussion first if the changes are significant)
-  - type: markdown
-    attributes:
-      value: |
-        > [!Caution]
-        > Please ensure not to use this for unrelated purposes like bug report, otherwise it can be closed without further notice
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
@@ -27,6 +22,11 @@ body:
         required: true
       - label: Look for Q&A through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask)
         required: false
+  - type: markdown
+    attributes:
+      value: |
+        > [!Caution]
+        > Please ensure not to use this for unrelated purposes like bug report, otherwise it can be closed without further notice
   - type: textarea
     id: problem-description
     attributes:
