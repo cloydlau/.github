@@ -47,7 +47,7 @@ body:
     attributes:
       label: Describe the bug and steps to reproduce
       description: |
-        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code. Avoid code screenshots.
+        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code, avoid code screenshots
     validations:
       required: true
   - type: textarea
