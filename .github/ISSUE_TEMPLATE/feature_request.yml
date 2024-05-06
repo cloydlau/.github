@@ -1,6 +1,5 @@
 name: "\U0001F680 Feature Proposal"
 description: Suggest new features for consideration
-labels: [":sparkles: feature request"]
 body:
   - type: markdown
     attributes:
