@@ -1,5 +1,5 @@
-name: "\U0001F680 New feature proposal"
-description: Suggest an idea for this project
+name: "\U0001F680 Feature Proposal"
+description: Suggest new features for consideration
 labels: [":sparkles: feature request"]
 body:
   - type: markdown
