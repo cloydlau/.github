@@ -27,7 +27,7 @@ body:
         > [!Tip]
         > - Sending PRs with failing tests or at least a well-crafted reproduction, is a huge step towards maintainers or other contributors landing a fix
         > - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
-      placeholder: Valid link
+      placeholder: Valid Link
     validations:
       required: true
   - type: markdown
