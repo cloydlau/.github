@@ -5,7 +5,7 @@ body:
     attributes:
       value: |
         🙏 Thanks for taking the time to fill out this necessary bug report!
-        Could you please hit the Star if you find this project helpful or your problem was resolved afterwards? thanks 🆘
+        Please consider starring ⭐ to support our ongoing maintenance if you find it useful or your issue was resolved afterwards. Thanks 🆘
   - type: checkboxes
     attributes:
       label: "Before you start, please make sure to:"
