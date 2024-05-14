@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this necessary bug report!
+        🙏 Thanks for taking the time to fill out this necessary bug report!
         Could you please hit the Star if you find this project helpful or your problem was resolved afterwards? thanks 🆘
   - type: checkboxes
     attributes:
