@@ -11,11 +11,10 @@ body:
 
         You can buy us a coffee via WeChat Pay:
         ![WeChat Pay](https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg)
-
-        > [!Tip]
-        > We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
   - type: textarea
     attributes:
       label: Question Description
+      description: |
+        We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
     validations:
       required: true
