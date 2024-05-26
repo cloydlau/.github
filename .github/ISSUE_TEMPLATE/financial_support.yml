@@ -10,7 +10,7 @@ body:
         This approach encourages everyone to fully utilize existing resources, helps identify any gaps in the documentation, and promotes the submission of high-quality PRs, all of which contribute to build a better project!
 
         You can buy us a coffee via WeChat Pay 💗:
-        ![WeChat Pay](https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg)
+        <img alt="WeChat Pay" src="https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg" style="width: 150px;">
   - type: textarea
     attributes:
       label: Question Description
