@@ -1,5 +1,5 @@
 name: "\U00002753 Financial Support or Consultation"
-description: 🙏 Thanks for your interest and financial support for our project!
+description: Thanks for your interest and financial support for our project!
 body:
   - type: markdown
     attributes:
