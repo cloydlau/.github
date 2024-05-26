@@ -13,7 +13,7 @@ body:
         <img alt="WeChat Pay" src="https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg" width="150px">
   - type: textarea
     attributes:
-      label: Question Description
+      label: Consultation Description
       description: |
         We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
     validations:
