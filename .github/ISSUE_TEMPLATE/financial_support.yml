@@ -12,3 +12,8 @@ body:
         ![Wechat Pay](./wechat-pay.jpg)
         > [!Tip]
         > We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
+  - type: textarea
+    attributes:
+      label: Question description
+    validations:
+      required: true
