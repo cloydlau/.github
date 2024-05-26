@@ -18,6 +18,11 @@ body:
         required: true
       - label: Look for Q&A through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask) and [ChatGPT](https://chat.openai.com)
         required: false
+  - type: markdown
+    attributes:
+      value: |
+        > [!Caution]
+        > Please ensure not to use this for unrelated purposes like [consulting](?assignees=&labels=&projects=&template=donation_and_consultation.yml), otherwise it can be closed without further notice
   - type: input
     attributes:
       label: Link to minimal reproduction
