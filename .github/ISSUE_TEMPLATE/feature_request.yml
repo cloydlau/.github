@@ -25,7 +25,7 @@ body:
     attributes:
       value: |
         > [!Caution]
-        > Please ensure not to use this for unrelated purposes like [consulting](?assignees=&labels=&projects=&template=sponsorship_and_consultation.yml), otherwise it can be closed without further notice
+        > Please ensure not to use this for unrelated purposes like [consulting](?assignees=&labels=&projects=&template=donation_and_consultation.yml), otherwise it can be closed without further notice
   - type: textarea
     id: problem-description
     attributes:
