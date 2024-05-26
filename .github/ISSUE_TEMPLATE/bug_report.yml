@@ -30,7 +30,7 @@ body:
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository
         [Why reproductions are required, and how to create one?](https://antfu.me/posts/why-reproductions-are-required)
         > [!Tip]
-        > - Sending PRs with failing tests, is a huge step towards maintainers or other contributors landing a fix <a href="https://pr.new"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a>
+        > - <a href="https://pr.new"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a> with failing tests, is a huge step towards maintainers or other contributors landing a fix
         > - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
         > - The reproduction should contain only the bare minimum (but complete) amount of code needed to show the bug
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
