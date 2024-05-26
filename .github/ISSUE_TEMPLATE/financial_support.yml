@@ -7,8 +7,7 @@ body:
         Context:
         We have encountered a large number of inquiries and requests for assistance, but actually, the vast majority of them can be resolved through reading document, searching, using Stack Overflow, or ChatGPT.
         However, if you are new to web development or simply prefer to speak directly with the maintenance team, we are also willing to offer paid consulting services.
-        [Maintainance takes effort, a lot.](https://antfu.me/posts/why-reproductions-are-required#maintainance-takes-effort-a-lot) This approach encourages everyone to fully utilize existing resources, helps identify any gaps in the documentation, and promotes the submission of high-quality PRs.
-        All of which contribute to build a better software!
+        [Maintainance takes effort, a lot.](https://antfu.me/posts/why-reproductions-are-required#maintainance-takes-effort-a-lot) This approach encourages everyone to fully utilize existing resources, helps identify any gaps in the documentation, and promotes the submission of high-quality PRs, all of which contribute to build a better software!
 
         You can buy us a coffee via WeChat Pay 💗:
         <img alt="WeChat Pay" src="https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg" width="150px">
