@@ -1,0 +1,14 @@
+name: "\U00002753 Financial Support or Consultation"
+description: We recommend fully utilizing existing resources such as documentation, search engines, Stack Overflow, and ChatGPT.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙏 Thanks for your interest and financial support for our project!
+        Context: We have encountered a large number of inquiries and requests for assistance, but actually, the vast majority of them can be resolved through reading document, searching, using Stack Overflow, or ChatGPT.
+        However, if you are new to web development or simply prefer to speak directly with the maintenance team, we are also willing to offer paid consulting services.
+        This approach encourages everyone to fully utilize existing resources, helps identify any gaps in the documentation, and promotes the submission of high-quality PRs, all of which contribute to build a better project!
+        You can buy us a coffee via WeChat Pay:
+        ![Wechat Pay](./wechat-pay.jpg)
+        > [!Tip]
+        > We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
