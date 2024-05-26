@@ -30,18 +30,14 @@ body:
         Try reproducing it in [StackBlitz](https://vite.new), [The SFC Playground (Vue 3 only)](https://play.vuejs.org) or a GitHub repository
         [Why reproductions are required, and how to create one?](https://antfu.me/posts/why-reproductions-are-required)
         > [!Tip]
-        > - Sending PRs with failing tests, is a huge step towards maintainers or other contributors landing a fix <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9IiNmZmZmZmYiIGQ9Ik0xOS4wMSAxNS4xNjNWNy45OTdDMTkuMDA1IDYuMzkxIDE3LjkzMyA0IDE1IDRWMmwtNCAzbDQgM1Y2YzEuODI5IDAgMi4wMDEgMS41MzkgMi4wMSAydjcuMTYzYy0xLjQ0LjQzNC0yLjUgMS43NTctMi41IDMuMzM3YzAgMS45MyAxLjU3IDMuNSAzLjUgMy41czMuNS0xLjU3IDMuNS0zLjVjMC0xLjU4LTEuMDYtMi45MDMtMi41LTMuMzM3bS0xIDQuODM3Yy0uODI3IDAtMS41LS42NzMtMS41LTEuNXMuNjczLTEuNSAxLjUtMS41czEuNS42NzMgMS41IDEuNXMtLjY3MyAxLjUtMS41IDEuNU05LjUgNS41QzkuNSAzLjU3IDcuOTMgMiA2IDJTMi41IDMuNTcgMi41IDUuNWMwIDEuNTggMS4wNiAyLjkwMyAyLjUgMy4zMzd2Ni4zMjZjLTEuNDQuNDM0LTIuNSAxLjc1Ny0yLjUgMy4zMzdDMi41IDIwLjQzIDQuMDcgMjIgNiAyMnMzLjUtMS41NyAzLjUtMy41YzAtMS41OC0xLjA2LTIuOTAzLTIuNS0zLjMzN1Y4LjgzN0M4LjQ0IDguNDAzIDkuNSA3LjA4IDkuNSA1LjVtLTUgMEM0LjUgNC42NzMgNS4xNzMgNCA2IDRzMS41LjY3MyAxLjUgMS41UzYuODI3IDcgNiA3cy0xLjUtLjY3My0xLjUtMS41bTMgMTNjMCAuODI3LS42NzMgMS41LTEuNSAxLjVzLTEuNS0uNjczLTEuNS0xLjVTNS4xNzMgMTcgNiAxN3MxLjUuNjczIDEuNSAxLjUiLz48L3N2Zz4="></a>
+        > - Sending PRs with failing tests, is a huge step towards maintainers or other contributors landing a fix <a href="https://pr.new"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a>
         > - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
-      placeholder: Valid Link
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        > [!Caution]
         > - The reproduction should contain only the bare minimum (but complete) amount of code needed to show the bug
         > - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
         > - Enable incognito/private mode to avoid interference from browser extensions and caches
+      placeholder: Valid Link
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: "Validation"
