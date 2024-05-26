@@ -20,6 +20,6 @@ body:
     attributes:
       label: Consultation Description
       description: |
-        We will respond ASAP (usually within 24 hours), but we cannot guarantee the results, please understand.
+        We will respond ASAP (usually within 24 hours after receiving the donation), but we cannot guarantee the results, please understand.
     validations:
       required: true
