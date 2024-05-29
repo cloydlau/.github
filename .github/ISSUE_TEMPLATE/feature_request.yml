@@ -19,8 +19,6 @@ body:
         required: true
       - label: Search to see if your proposal already exists
         required: true
-      - label: Look for Q&A through appropriate channels like [Stack Overflow](https://stackoverflow.com/questions/ask) and [ChatGPT](https://chat.openai.com)
-        required: false
   - type: markdown
     attributes:
       value: |
