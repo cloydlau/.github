@@ -62,8 +62,9 @@ body:
       label: Package Manager
       options:
         - pnpm
-        - bun
         - npm
+        - bun
+        - deno
         - yarn
         - cnpm
         - other
