@@ -1,0 +1,72 @@
+name: "\U0001F41E Bug Report"
+description: Create a bug report to help us improve
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙏 Thanks for taking the time to fill out this necessary bug report!
+        Please consider starring ⭐ to support our ongoing maintenance if it helps or your issue was resolved afterwards 🆘
+  - type: checkboxes
+    attributes:
+      label: "Before you start, please make sure to:"
+      options:
+      - label: Read the document/[GitSummarize](https://gitsummarize.com)
+        required: true
+      - label: Ask [DeepWiki](https://deepwiki.com)/[DeepSeek](https://chat.deepseek.com)/[ChatGPT](https://chatgpt.com)
+        required: true
+      - label: Have tried the latest version
+        required: true
+      - label: Search to see if your issue already exists
+        required: true
+  - type: input
+    attributes:
+      label: Link to minimal reproduction
+      description: |
+        - Try reproducing it in [StackBlitz](https://vite.new), [Vue 3 SFC Playground](https://play.vuejs.org) or a [GitHub repository](https://github.com/new)
+        - [Why reproductions are required, and how to create one?](https://antfu.me/posts/why-reproductions-are-required)
+        - <a href="https://pr.new"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a> with failing tests, is a huge step towards maintainers or other contributors landing a fix
+        - The best reproduction is the reproduction never sent - you find the problems/solutions during making the reproduction
+        - The reproduction should contain only the bare minimum (but complete) amount of code needed to show the bug
+        - Make reasonable efforts to troubleshoot and rule out issues with your own code or any 3rd party library
+        - Enable incognito/private mode to avoid interference from browser extensions and caches
+      placeholder: Valid Link
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Validation
+      options:
+      - label: ⚠️ I understand that **invalid, incomplete or redundant reproduction** will make it arduous (even impossible) for us to help you
+        required: true
+      - label: ⚠️ I understand that using this for **unrelated purposes** can lead to it being closed without further notice
+        required: true
+  - type: textarea
+    attributes:
+      label: Describe the bug and steps to reproduce
+      description: |
+        What do we need to do after opening your repro in order to make the bug happen? Clear and concise reproduction instructions are important for us to be able to triage your issue in a timely manner. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown/) to format lists and code, avoid code screenshots
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: System Info
+      description: Output of `npx envinfo --system --binaries --browsers --npmPackages`
+      render: shell
+      placeholder: System, JS/TS Runtime, Browser, NPM Packages
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Package Manager
+      options:
+        - npm
+        - yarn
+        - cnpm
+        - pnpm
+        - deno
+        - bun
+        - jsr
+        - vlt
+        - other
+    validations:
+      required: false
