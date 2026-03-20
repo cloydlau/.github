@@ -1,0 +1,47 @@
+name: "\U0001F4A1 Feature Proposal"
+description: Suggest new features for consideration
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙏 Thanks for your interest and taking the time to fill out this feature proposal!
+        Please consider starring ⭐ to support our ongoing maintenance if you find it useful or your proposal was resolved afterwards 🆘
+        > [!Tip]
+        > [Open Source Software is served "as-is"](https://antfu.me/posts/why-reproductions-are-required#open-source-software-is-served-as-is), so please keep in mind that you can <a href="https://pr.new"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a>
+        > ⚠️ Consensus should be reached through discussion first if the changes are significant
+  - type: checkboxes
+    attributes:
+      label: "Before you start, please make sure to:"
+      options:
+      - label: Read the document/[GitSummarize](https://gitsummarize.com)
+        required: true
+      - label: Ask [DeepWiki](https://deepwiki.com)/[DeepSeek](https://chat.deepseek.com)/[ChatGPT](https://chatgpt.com)
+        required: true
+      - label: Have tried the latest version
+        required: true
+      - label: Search to see if your proposal already exists
+        required: true
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: What problem does this feature solve?
+      description: |
+        Explain your use case, context, and rationale behind this feature proposal. More importantly, what is the **end user experience** you are trying to build that led to the need for this feature?
+      placeholder: Problem description
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-API
+    attributes:
+      label: What does the proposed API look like?
+      description: |
+        Describe how you propose to solve the problem and provide code samples of how the API would work once implemented. Note that you can use [Markdown](https://guides.github.com/features/mastering-markdown) to format your code blocks
+      placeholder: Assumed API
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Validation
+      options:
+      - label: ⚠️ I understand that using this for **unrelated purposes** can lead to it being closed without further notice
+        required: true
