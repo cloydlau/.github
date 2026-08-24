@@ -1,0 +1,31 @@
+name: "\U00002753 Donation and Consultation"
+description: Your financial support helps this project go further!
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!Important]
+        > Context:
+        >
+        > We have encountered and handled a large number of inquiries and requests for assistance, but actually, the vast majority of them can be resolved through more appropriate channels, such as reading document/[GitSummarize](https://gitsummarize.com), asking [DeepWiki](https://deepwiki.com)/[DeepSeek](https://chat.deepseek.com)/[ChatGPT](https://chatgpt.com), searching, using [Stack Overflow](https://stackoverflow.com/questions/ask), and GitHub Discussions.
+        >
+        > However, if you are new to web development or simply prefer to speak directly with the maintenance team, we are also willing to offer paid consulting services.
+        >
+        > [Maintainance takes effort, a lot](https://antfu.me/posts/why-reproductions-are-required#maintainance-takes-effort-a-lot). This approach encourages everyone to fully utilize existing resources, helps identify any gaps in the documentation, and promotes the submission of high-quality PRs, all of which contribute to continuously build better software!
+
+        Anyway, you can buy us a coffee via WeChat Pay 💗:
+
+        <img alt="WeChat Pay" src="https://raw.githubusercontent.com/cloydlau/.github/main/.github/ISSUE_TEMPLATE/wechat-pay.jpg" width="150px">
+  - type: textarea
+    attributes:
+      label: Consultation Description
+      description: |
+        We will respond ASAP (usually within 24 hours after receiving the donation), but we cannot guarantee the results, please understand.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Validation
+      options:
+      - label: ⚠️ I understand that using this for **unrelated purposes** can lead to it being closed without further notice
+        required: true
